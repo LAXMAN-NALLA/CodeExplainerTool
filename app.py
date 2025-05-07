@@ -20,7 +20,7 @@ prompt = ChatPromptTemplate.from_messages([
 ])
 
 def main():
-    # Sidebar for instructions
+    # Sidebar for instructions.
     st.sidebar.title("ℹ️ Instructions")
     st.sidebar.write("""
     1. Paste your code in the text box (can be in any programming language).
